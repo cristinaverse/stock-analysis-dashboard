@@ -39,16 +39,24 @@ python stock_analysis_main.py
 
 ```
 stock-analysis-dashboard/
-├── stock_analysis_main.py        # Complete code for all 6 questions
-├── requirements.txt              # Dependencies
-├── README.md                     # Project documentation
-└── screenshots/                  # Screenshots of outputs for each question
-    ├── question1_tesla.png
+├── README.md
+├── requirements.txt
+├── stock_analysis_main.py
+├── notebooks/
+│   ├── question1_tesla_data.ipynb
+│   ├── question2_tesla_revenue.ipynb
+│   ├── question3_gme_data.ipynb
+│   ├── question4_gme_revenue.ipynb
+│   ├── question5_tesla_plot.ipynb
+│   └── question6_gme_plot.ipynb
+└── screenshots/
+    ├── question1_tesla_data.png
     ├── question2_tesla_revenue.png
-    ├── question3_gme.png
+    ├── question3_gme_data.png
     ├── question4_gme_revenue.png
-    ├── question5_tesla_graph.png
-    └── question6_gme_graph.png
+    ├── question5_tesla_dashboard.png
+    └── question6_gme_dashboard.png
+
 ```
 
 ---
